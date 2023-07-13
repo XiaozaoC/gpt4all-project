@@ -13,4 +13,4 @@
 `nice_test.ipynb`: 在kaggle上导入模型，并对模型进行测试。测试prompt"I had too much work to do so that"，对应output为"I'm not going to do it, I"。我对原模型进行了对比测试，原模型output为"I didn't have time to take a break.I"。对比发现经过`P-Tunning`的模型输出包含更鲜明、更强烈的情感信息。
 
 
-'gpt4all对话测试.txt': 在项目中还对gpt4all-j-v1.3-groovy进行了测试，此为测试结果。
+'gpt4all_chat_test.txt': 在项目中还对gpt4all-j-v1.3-groovy进行了测试，此为测试结果。
