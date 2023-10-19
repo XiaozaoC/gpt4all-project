@@ -3,7 +3,7 @@
 本项目参考文献链接：https://blog.csdn.net/qq_35812205/article/details/131647749
 
 
-项目原计划是对`gpt4all-j`进行本地部署、训练以及微调，部署按照gpt4all官网教程成功实现，但由于gpt4all-j训练所需内存较大，受硬件限制后续操作使用轻量化模型`pythia-1.4b-gpt4all-pretrain`进行替代，本项目所使用的预训练模型与数据集都能在HuggingFace上找到。
+项目原计划是对`gpt4all-j`进行本地部署、训练以及微调。部署按照gpt4all官网教程成功实现，但由于gpt4all-j训练所需内存较大，受硬件限制后续操作使用轻量化模型`pythia-1.4b-gpt4all-pretrain`进行替代，本项目所使用的预训练模型与数据集都能在HuggingFace上找到。
 整个项目实现过程中分别在colab和kaggle上进行p-tuning训练与测试。
 
 
@@ -13,4 +13,4 @@
 `nice_test.ipynb`: 在kaggle上导入模型，并对模型进行测试。测试prompt"I had too much work to do so that"，对应output为"I'm not going to do it, I"。我对原模型进行了对比测试，原模型output为"I didn't have time to take a break.I"。对比发现经过`P-Tunning`的模型输出包含更鲜明、更强烈的情感信息。
 
 
-'gpt4all_chat_test.txt': 在项目中还对gpt4all-j-v1.3-groovy进行了测试，此为测试结果。
+`gpt4all_chat_test.txt`: 在项目中还对gpt4all-j-v1.3-groovy进行了测试，此为测试结果。
