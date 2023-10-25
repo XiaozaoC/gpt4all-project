@@ -1,6 +1,6 @@
 # gpt4all-project
 本项目为大二下学期深度学习大作业。主要实现了对`pythia-1.4b-gpt4all-pretrain`模型进行`p-tuning`，使其输出带有情绪信息。
-本项目参考文献链接：https://blog.csdn.net/qq_35812205/article/details/131647749
+本项目参考教程链接：https://blog.csdn.net/qq_35812205/article/details/131647749
 
 
 项目原计划是对`gpt4all-j`进行本地部署、训练以及微调。部署按照gpt4all官网教程成功实现，但由于gpt4all-j训练所需内存较大，受硬件限制后续操作使用轻量化模型`pythia-1.4b-gpt4all-pretrain`进行替代，本项目所使用的预训练模型与数据集都能在HuggingFace上找到。
